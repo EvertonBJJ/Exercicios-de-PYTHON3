@@ -1,0 +1,5 @@
+num = input('Insira um numero: ')
+print('Unidades: {}'.format(num[3:]))
+print('Dezenas: {}'.format(num[2:3]))
+print('Centenas: {}'.format(num[1:2]))
+print('Milhar: {}'.format(num[:1]))

@@ -1,0 +1,5 @@
+name=input('\33[1;33;44m\nInsira seu nome: ').lower().strip()
+nm=name.title()
+n=nm.split()
+print('Primeiro nome: {}'.format(n[0]))
+print('Ultimo nome: {}\33[m'.format(n[-1]))
